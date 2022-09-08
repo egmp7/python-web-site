@@ -25,5 +25,7 @@ Git:
     - Initialize a project
     - gitignore archive
     - branches
-    - commits
+    - commit / push
     - github repository
+    - pull request
+    - SSH authentification 
