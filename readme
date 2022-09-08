@@ -21,3 +21,9 @@ Flask:
     - Basic routing
         @app.route('/home')
 Git:
+    - global username and email
+    - Initialize a project
+    - gitignore archive
+    - branches
+    - commits
+    - github repository
