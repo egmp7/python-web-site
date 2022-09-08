@@ -1,0 +1,25 @@
+<!-- Inheritance - CHILD -->
+{% extends "base.html" %}
+{%block body%}
+
+    <h1>Hello World!</h1>
+    
+    <!-- TEACHING PURPOSES -->
+    <!-- Render data -->
+    <p>This is {{author}}, and I am an amezing coder</p>
+
+    <!-- Conditionals -->
+    {% if test %}
+        <p>This is a test</p>
+    {% else %}
+        <p>This is not a test</p>
+    {%endif%}
+
+    <!-- Loops -->
+    {% for item in data %}
+        <p>{{item.tittle}}</p>
+        <p>{{item.age}}</p>
+    {%endfor%}
+    <!-- End of TEACHING PURPOSES -->
+
+{%endblock%}

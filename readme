@@ -1,0 +1,23 @@
+Log:
+
+Sep 8/7/2022
+Basics of Python:
+
+    - data types
+    - conditionals
+    - functions
+    - object orientated programming
+    - classes
+    - internal functions
+
+Sep 9/7/2022
+Flask:
+    - Templates
+        - helloWorld.html
+        - 404.html 
+    - Inheritance
+        - From base.html template to
+        helloWorld.html & 404.html
+    - Basic routing
+        @app.route('/home')
+Git:
